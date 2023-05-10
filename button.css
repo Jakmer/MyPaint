@@ -1,0 +1,27 @@
+.button-3{
+    -fx-background-color:rgb(8, 69, 84);
+    -fx-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -fx-text-fill: white;
+    -fx-font-weight: bolder;
+    -fx-font-size: 14px;
+    -fx-border-color: black;
+
+}
+
+.button-3:hover{
+    -fx-background-color:rgb(1, 30, 37);
+    -fx-cursor: hand;
+}
+
+.button-3:active {
+    -fx-scale-x: 0.95;
+    -fx-scale-y: 0.95;
+}
+.toolbar-style{
+    -fx-background-color: rgb(2, 47, 58);;
+}
+
+.pane-style{
+    -fx-background-color: rgb(146, 169, 174);
+}
+

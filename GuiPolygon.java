@@ -112,8 +112,8 @@ class PolygonScrollHandler implements EventHandler<ScrollEvent> {
             GuiPolygon polygon = (GuiPolygon) event.getSource();
 
             if (event.getDeltaY() > 0) {
-                polygon.setScaleX(polygon.getScaleX() * 1.3);
-                polygon.setScaleY(polygon.getScaleY() * 1.3);
+                polygon.setScaleX(polygon.getScaleX() * 1.5);
+                polygon.setScaleY(polygon.getScaleY() * 1.5);
             } else {
                 {
                     polygon.setScaleX(polygon.getScaleX() * 0.9);
